@@ -145,3 +145,49 @@ nav a:hover {
     }
 
     }
+/* DSA Professional Theme Upgrade */
+
+header {
+    background: linear-gradient(135deg, #061a40, #0b3d91);
+}
+
+header p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+button {
+    margin: 8px;
+    transition: 0.3s;
+}
+
+.card {
+    border-left: 5px solid #0b3d91;
+}
+
+nav a {
+    padding: 8px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background: rgba(255,255,255,0.1);
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+}
