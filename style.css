@@ -60,3 +60,42 @@ button {
     border: none;
     border-radius: 5px;
       }
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header img {
+    margin-bottom: 15px;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+button:hover {
+    background: #1456c3;
+    cursor: pointer;
+}
+
+h2 {
+    color: #061a40;
+}
+
+h3 {
+    color: #0b3d91;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+footer p {
+    margin: 0;
+}
