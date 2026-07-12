@@ -191,3 +191,27 @@ nav a:hover {
     }
 
 }
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.hero img {
+    border-radius: 12px;
+}
+
+.hero h3 {
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    }
