@@ -215,3 +215,31 @@ nav a:hover {
         text-align: center;
     }
     }
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.stat-box {
+    background: #0b3d91;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 180px;
+    flex: 1;
+}
+
+.stat-box h3 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.stat-box p {
+    margin-top: 10px;
+    font-size: 16px;
+}
