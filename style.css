@@ -22,12 +22,13 @@ header h2 {
 }
 
 nav {
-    background: #0b3d91;
-    padding: 15px;
+    background: rgba(6, 26, 64, 0.95);
+    padding: 18px;
     text-align: center;
     position: sticky;
     top: 0;
     z-index: 1000;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
 }
 
 nav a {
@@ -35,16 +36,12 @@ nav a {
     text-decoration: none;
     margin: 8px;
     padding: 10px 15px;
-    display: inline-block;
     font-weight: bold;
-    border-radius: 5px;
+    border-radius: 8px;
     transition: 0.3s ease;
 }
 
-nav a:hover {
-    background: #1456c3;
-    color: white;
-}
+
 
 section {
     padding: 25px;
