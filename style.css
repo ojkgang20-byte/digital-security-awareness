@@ -347,3 +347,29 @@ button:hover {
 .card:hover {
     transform: translateY(-6px);
 }
+
+/* DSA Futuristic Hero Effect */
+
+header {
+    overflow: hidden;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:
+    radial-gradient(circle at top right,
+    rgba(0,180,255,0.25),
+    transparent 40%);
+
+    pointer-events: none;
+}
+
+.hero {
+    position: relative;
+    z-index: 1;
+}
