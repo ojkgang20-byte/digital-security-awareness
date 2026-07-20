@@ -391,3 +391,18 @@ header::before {
     position: relative;
     z-index: 1;
 }
+
+/* Founder Image Center Design */
+
+.founder-section {
+    text-align: center;
+}
+
+.founder-image img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #0b3d91;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
