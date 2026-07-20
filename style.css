@@ -299,3 +299,50 @@ button:hover {
     text-align: center;
     padding: 20px;
     }
+
+/* Professional Hero Section */
+
+header {
+    position: relative;
+    background: linear-gradient(rgba(5,25,60,0.80), rgba(5,25,60,0.80)),
+                url("hero-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 20px;
+    color: white;
+}
+
+.hero {
+    max-width: 1200px;
+    margin: auto;
+}
+
+button {
+    background: linear-gradient(90deg, #007BFF, #00C6FF);
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,198,255,0.4);
+}
+
+.card {
+    background: rgba(255,255,255,0.95);
+    border-radius: 18px;
+    padding: 25px;
+    margin: 20px 0;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
