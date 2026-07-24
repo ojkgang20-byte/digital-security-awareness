@@ -6,10 +6,16 @@ body {
 }
 
 header {
-    background: #061a40;
+    position: relative;
+    background: linear-gradient(rgba(6,26,64,0.75),
+                                rgba(6,26,64,0.75)),
+                url("hero-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: white;
     text-align: center;
-    padding: 40px 20px;
+    padding: 100px 20px;
 }
 
 header h1 {
@@ -405,4 +411,18 @@ header::before {
     border-radius: 50%;
     border: 5px solid #0b3d91;
     box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.founder-image img {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #FFD700;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    transition: transform 0.3s ease;
+}
+
+.founder-image img:hover {
+    transform: scale(1.05);
 }
