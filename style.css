@@ -426,3 +426,20 @@ header::before {
 .founder-image img:hover {
     transform: scale(1.05);
 }
+
+/* Founder Message */
+
+.founder-message {
+    text-align: center;
+    background: linear-gradient(135deg,#ffffff,#eef5ff);
+    border-left: 6px solid #0b3d91;
+}
+
+.founder-message h2 {
+    color: #0b3d91;
+}
+
+.founder-message p {
+    line-height: 1.8;
+    font-size: 17px;
+}
