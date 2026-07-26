@@ -245,9 +245,12 @@ nav a:hover {
 }
 
 .hero img {
-    border-radius: 12px;
+    width: 260px;
+    max-width: 100%;
+    border-radius: 50%;
+    border: 5px solid #ffffff;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.35);
 }
-
 .hero h3 {
     text-align: center;
     color: white;
