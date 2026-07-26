@@ -55,11 +55,13 @@ section {
 }
 
 .card {
-    background: white;
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    background: rgba(255,255,255,0.97);
+    padding: 30px;
+    margin: 25px 0;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    border-top: 5px solid #007BFF;
+    transition: all 0.3s ease;
 }
 
 footer {
