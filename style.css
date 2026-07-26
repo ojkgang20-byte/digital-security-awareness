@@ -265,13 +265,14 @@ nav a:hover {
 }
 
 .stat-box {
-    background: #0b3d91;
+    background: linear-gradient(135deg, #0b3d91, #007BFF);
     color: white;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 25px;
+    border-radius: 15px;
     text-align: center;
     min-width: 180px;
     flex: 1;
+    transition: all 0.3s ease;
 }
 
 .stat-box h3 {
@@ -446,3 +447,7 @@ header::before {
     line-height: 1.8;
     font-size: 17px;
 }
+.stat-box:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+    }
