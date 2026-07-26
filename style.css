@@ -49,9 +49,10 @@ nav a {
 }
 
 
-
 section {
-    padding: 25px;
+    padding: 40px 25px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .card {
