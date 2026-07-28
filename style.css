@@ -465,9 +465,11 @@ header::before {
 }
 
 .hero-text h1 {
-    font-size: 48px;
+    font-size: 52px;
+    font-weight: bold;
     margin-bottom: 20px;
     color: #ffffff;
+    text-shadow: 0 4px 15px rgba(0,0,0,0.4);
 }
 
 .hero-text p {
