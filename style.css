@@ -487,3 +487,22 @@ header::before {
     flex-wrap: wrap;
     margin-top: 30px;
 }
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .hero img {
+        width: 200px;
+    }
+}
